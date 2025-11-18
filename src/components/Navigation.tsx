@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const Navigation = () => {
@@ -12,13 +13,6 @@ const Navigation = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <nav
       className={cn(
@@ -27,22 +21,28 @@ const Navigation = () => {
       )}
     >
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <button
-          onClick={() => scrollToSection("home")}
+        <Link
+          to="/"
           className="font-serif text-2xl font-bold tracking-tight hover:text-accent transition-colors"
         >
           Amelia Jabry
-        </button>
+        </Link>
         <div className="flex gap-8">
-          {["Home", "About", "My Work", "Extras", "Contact"].map((item) => (
-            <button
-              key={item}
-              onClick={() => scrollToSection(item.toLowerCase().replace(" ", "-"))}
-              className="text-sm font-medium hover:text-accent transition-colors"
-            >
-              {item}
-            </button>
-          ))}
+          <Link to="/" className="text-sm font-medium hover:text-accent transition-colors">
+            Home
+          </Link>
+          <Link to="/about" className="text-sm font-medium hover:text-accent transition-colors">
+            About
+          </Link>
+          <Link to="/my-work" className="text-sm font-medium hover:text-accent transition-colors">
+            My Work
+          </Link>
+          <Link to="/extras" className="text-sm font-medium hover:text-accent transition-colors">
+            Extras
+          </Link>
+          <Link to="/contact" className="text-sm font-medium hover:text-accent transition-colors">
+            Contact
+          </Link>
         </div>
       </div>
     </nav>
