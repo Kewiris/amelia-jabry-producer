@@ -1,12 +1,7 @@
 import { Linkedin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <footer className="bg-surface-elevated border-t border-border/20 py-12">
@@ -19,15 +14,21 @@ const Footer = () => {
           </div>
           
           <nav className="flex gap-6 text-sm">
-            {["Home", "About", "My Work", "Extras", "Contact"].map((item) => (
-              <button
-                key={item}
-                onClick={() => scrollToSection(item.toLowerCase().replace(" ", "-"))}
-                className="text-muted-foreground hover:text-accent transition-colors"
-              >
-                {item}
-              </button>
-            ))}
+            <Link to="/" className="text-muted-foreground hover:text-accent transition-colors">
+              Home
+            </Link>
+            <Link to="/about" className="text-muted-foreground hover:text-accent transition-colors">
+              About
+            </Link>
+            <Link to="/my-work" className="text-muted-foreground hover:text-accent transition-colors">
+              My Work
+            </Link>
+            <Link to="/extras" className="text-muted-foreground hover:text-accent transition-colors">
+              Extras
+            </Link>
+            <Link to="/contact" className="text-muted-foreground hover:text-accent transition-colors">
+              Contact
+            </Link>
           </nav>
           
           <a
