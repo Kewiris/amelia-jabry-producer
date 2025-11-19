@@ -23,14 +23,14 @@ const Home = () => {
           </div>
           
           <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed mb-4">
-            "A producer accidentally caught on camera, visualising the budget and schedule — in technicolour."
+            "Producer by trade, photogenic by accident"
           </p>
           
           <a 
-            href="mailto:amelia.jabry@gmail.com" 
+            href="mailto:hello@ameliajabry.com" 
             className="text-accent hover:text-accent/80 transition-colors"
           >
-            amelia.jabry@gmail.com
+            hello@ameliajabry.com
           </a>
         </div>
       </div>
