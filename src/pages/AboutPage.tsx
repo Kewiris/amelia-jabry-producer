@@ -23,8 +23,8 @@ const AboutPage = () => {
         <div className="max-w-6xl mx-auto">
           <h2 className="font-serif text-6xl font-bold mb-16 text-center">About</h2>
           
-          <div className="grid lg:grid-cols-2 gap-12 items-start mb-16">
-            <div className="relative aspect-square rounded-lg overflow-hidden border border-border/20 cinematic-glow">
+          <div className="space-y-8 mb-16">
+            <div className="relative aspect-[16/9] max-w-3xl mx-auto rounded-lg overflow-hidden border-2 border-border/40 cinematic-glow">
               {images.map((img, idx) => (
                 <img
                   key={idx}
@@ -53,9 +53,9 @@ const AboutPage = () => {
           <div className="bg-surface-elevated/60 backdrop-blur-sm border border-border/20 rounded-lg p-8">
             <h3 className="font-serif text-3xl font-bold mb-8">Technical Skills</h3>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div>
-                <h4 className="text-accent font-semibold mb-3">Organisational & Production Management</h4>
+                <h4 className="text-accent font-semibold mb-3 min-h-[3rem] flex items-center">Organisational & Production Management</h4>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Movie Magic Budgeting & Scheduling</li>
                   <li>DocuSign & production paperwork workflows</li>
@@ -67,16 +67,19 @@ const AboutPage = () => {
               </div>
               
               <div>
-                <h4 className="text-accent font-semibold mb-3">Production</h4>
+                <h4 className="text-accent font-semibold mb-3 min-h-[3rem] flex items-center">Production</h4>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>DSLR & cinema camera operation</li>
                   <li>Lighting setups</li>
                   <li>Podcast & audio recording</li>
+                  <li>Interviewing</li>
+                  <li>Location scouting</li>
+                  <li>Health & safety management</li>
                 </ul>
               </div>
               
               <div>
-                <h4 className="text-accent font-semibold mb-3">Post-Production</h4>
+                <h4 className="text-accent font-semibold mb-3 min-h-[3rem] flex items-center">Post-Production</h4>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Transcoding workflows (MP4, H.264, social-optimised)</li>
                   <li>Adobe Premiere Pro</li>
@@ -90,7 +93,7 @@ const AboutPage = () => {
               </div>
               
               <div>
-                <h4 className="text-accent font-semibold mb-3">AI & Communication Tools</h4>
+                <h4 className="text-accent font-semibold mb-3 min-h-[3rem] flex items-center">AI & Communication Tools</h4>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Descript (AI subtitling & transcription)</li>
                   <li>Teams / Slack / GSuite</li>
