@@ -23,7 +23,7 @@ const Home = () => {
           </div>
           
           <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed mb-4">
-            Producer by trade, photogenic by accident
+            Welcome, take your shoes off and look around
           </p>
           
           <a 
