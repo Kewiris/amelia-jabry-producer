@@ -26,9 +26,6 @@ const Footer = () => {
             <Link to="/extras" className="text-muted-foreground hover:text-accent transition-colors">
               Extras
             </Link>
-            <Link to="/contact" className="text-muted-foreground hover:text-accent transition-colors">
-              Contact
-            </Link>
           </nav>
           
           <a

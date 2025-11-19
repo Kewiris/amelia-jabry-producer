@@ -40,9 +40,6 @@ const Navigation = () => {
           <Link to="/extras" className="text-sm font-medium hover:text-accent transition-colors">
             Extras
           </Link>
-          <Link to="/contact" className="text-sm font-medium hover:text-accent transition-colors">
-            Contact
-          </Link>
         </div>
       </div>
     </nav>

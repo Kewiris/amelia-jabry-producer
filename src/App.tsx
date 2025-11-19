@@ -9,7 +9,6 @@ import Home from "@/pages/Home";
 import AboutPage from "@/pages/AboutPage";
 import MyWorkPage from "@/pages/MyWorkPage";
 import ExtrasPage from "@/pages/ExtrasPage";
-import ContactPage from "@/pages/ContactPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,7 +26,6 @@ const App = () => (
             <Route path="/about" element={<AboutPage />} />
             <Route path="/my-work" element={<MyWorkPage />} />
             <Route path="/extras" element={<ExtrasPage />} />
-            <Route path="/contact" element={<ContactPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
