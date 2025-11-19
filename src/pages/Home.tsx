@@ -1,8 +1,6 @@
 import heroImage from "@/assets/hero-portrait.jpg";
-
 const Home = () => {
-  return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+  return <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-surface-elevated" />
       
       <div className="container mx-auto px-6 relative z-10">
@@ -14,28 +12,19 @@ const Home = () => {
           
           <div className="mb-8 max-w-md">
             <div className="aspect-square rounded-lg overflow-hidden border-2 border-border/40 cinematic-glow">
-              <img
-                src={heroImage}
-                alt="Amelia Jabry - Film Producer"
-                className="w-full h-full object-cover"
-              />
+              <img src={heroImage} alt="Amelia Jabry - Film Producer" className="w-full h-full object-cover" />
             </div>
           </div>
           
           <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed mb-4">
-            Welcome, take your shoes off and look around
+            Welcome, take your shoes off and look around.
           </p>
           
-          <a 
-            href="mailto:hello@ameliajabry.com" 
-            className="text-accent hover:text-accent/80 transition-colors"
-          >
+          <a href="mailto:hello@ameliajabry.com" className="text-accent hover:text-accent/80 transition-colors">
             hello@ameliajabry.com
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Home;
