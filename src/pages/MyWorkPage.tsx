@@ -107,7 +107,11 @@ const MyWorkPage = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-7xl mx-auto">
-          <h2 className="font-serif text-6xl font-bold mb-16 text-center">My Work</h2>
+          <h2 className="font-serif text-6xl font-bold mb-6 text-center">My Work</h2>
+          
+          <p className="text-lg text-muted-foreground text-center mb-16">
+            Check out my showreel below
+          </p>
           
           <div className="mb-16">
             <div className="aspect-video w-full rounded-lg overflow-hidden border border-border/20 cinematic-glow">
@@ -119,6 +123,10 @@ const MyWorkPage = () => {
               />
             </div>
           </div>
+
+          <p className="text-lg text-muted-foreground text-center mb-12">
+            Explore more of my work
+          </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
