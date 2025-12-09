@@ -58,6 +58,7 @@ const AboutPage = () => {
                 <h4 className="text-accent font-semibold mb-3 min-h-[3rem] flex items-center">Organisational & Production Management</h4>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Movie Magic Budgeting & Scheduling</li>
+                  <li>Production Budgets and management</li>
                   <li>DocuSign & production paperwork workflows</li>
                   <li>Final Draft</li>
                   <li>Monday.com / Airtable / ClickUp</li>
@@ -73,6 +74,7 @@ const AboutPage = () => {
                   <li>Lighting setups</li>
                   <li>Podcast & audio recording</li>
                   <li>Interviewing</li>
+                  <li>Sustainability and innovation</li>
                   <li>Location scouting</li>
                   <li>Health & safety management</li>
                 </ul>
