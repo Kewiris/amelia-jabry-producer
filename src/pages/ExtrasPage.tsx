@@ -1,6 +1,9 @@
 import rugby1 from "@/assets/rugby-1.jpg";
 import rugby2 from "@/assets/rugby-2.jpg";
 import rugby3 from "@/assets/rugby-3.jpg";
+import flamenco1 from "@/assets/flamenco-1.jpg";
+import flamenco2 from "@/assets/flamenco-2.jpg";
+import flamenco3 from "@/assets/flamenco-3.jpg";
 import cakes1 from "@/assets/cakes-1.jpg";
 import cakes2 from "@/assets/cakes-2.jpg";
 import cakes3 from "@/assets/cakes-3.jpg";
@@ -16,6 +19,14 @@ const ExtrasPage = () => {
         { src: rugby1, alt: "Rugby action shot 1" },
         { src: rugby2, alt: "Rugby action shot 2" },
         { src: rugby3, alt: "Rugby action shot 3" }
+      ]
+    },
+    {
+      title: "Flamenco",
+      images: [
+        { src: flamenco1, alt: "Flamenco dance performance 1" },
+        { src: flamenco2, alt: "Flamenco dance performance 2" },
+        { src: flamenco3, alt: "Flamenco dance performance 3" }
       ]
     },
     {
