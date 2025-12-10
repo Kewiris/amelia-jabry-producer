@@ -56,7 +56,7 @@ const ExtrasPage = () => {
           <h2 className="font-serif text-6xl font-bold mb-8 text-center">Extras</h2>
           
           <p className="text-xl text-center text-muted-foreground mb-16 max-w-3xl mx-auto">
-            Outside of production, I play rugby, bake too-elaborate cakes, and make art.
+            Outside of production, I play rugby, dance flamenco, bake too-elaborate cakes, and make art.
           </p>
 
           <div className="space-y-16">
