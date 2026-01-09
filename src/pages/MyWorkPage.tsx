@@ -12,6 +12,7 @@ import tmb from "@/assets/project-tmb.png";
 import whp from "@/assets/project-whp.png";
 import costs from "@/assets/project-costs.png";
 import tab from "@/assets/project-tab.png";
+import internationelles from "@/assets/project-internationelles.jpg";
 
 const MyWorkPage = () => {
   const projects = [
@@ -98,6 +99,12 @@ const MyWorkPage = () => {
       year: "2021",
       image: tab,
       link: "https://www.tiktok.com/@cambridgetabtv?lang=en"
+    },
+    {
+      title: "Internationelles — Sunday Times — Digital Journalist",
+      year: "2019",
+      image: internationelles,
+      link: "https://x.com/DavidWalshST/status/1155789893257388032"
     }
   ];
 
