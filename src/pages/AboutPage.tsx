@@ -38,9 +38,7 @@ const AboutPage = () => {
             </div>
             
             <div className="bg-surface-elevated/60 backdrop-blur-sm border border-border/20 rounded-lg p-8">
-              <p className="text-lg leading-relaxed mb-4">Hey there, I'm Amelia and I'm a producer. I cover the whole production from development and scripting, through to shooting and production, and edit and post. I even produce (and host) podcasts! Where I am most at home though is knee deep in a production budget and schedule, the organisational force behind a beautiful creative idea.
-
-              </p>
+              <p className="text-lg leading-relaxed mb-4">Hey there, I'm Amelia and I'm a producer. I cover the whole production from development and scripting, through to shooting and production, and edit and post. I even produce (and host) podcasts! Where I am most at home though is knee deep in a production budget and schedule, the organisational force behind a beautiful creative idea.</p>
               <p className="text-lg leading-relaxed mb-4">
                 I graduated from the London School of Economics, then completed an MPhil at the University of Cambridge researching how information spreads via social media algorithms and how that influences environmental sustainability - a useful lens for understanding what succeeds online.
               </p>
