@@ -25,21 +25,21 @@ const AboutPage = () => {
           
           <div className="space-y-8 mb-16">
             <div className="relative aspect-[16/9] max-w-3xl mx-auto rounded-lg overflow-hidden border-2 border-border/40 cinematic-glow">
-              {images.map((img, idx) => (
-                <img
-                  key={idx}
-                  src={img}
-                  alt={`Amelia Jabry on set ${idx + 1}`}
-                  className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
-                    idx === currentImage ? "opacity-100" : "opacity-0"
-                  }`}
-                />
-              ))}
+              {images.map((img, idx) =>
+              <img
+                key={idx}
+                src={img}
+                alt={`Amelia Jabry on set ${idx + 1}`}
+                className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+                idx === currentImage ? "opacity-100" : "opacity-0"}`
+                } />
+
+              )}
             </div>
             
             <div className="bg-surface-elevated/60 backdrop-blur-sm border border-border/20 rounded-lg p-8">
-              <p className="text-lg leading-relaxed mb-4">
-                Hey there, I'm Amelia and I'm a producer. What is that exactly? Well I cover the whole production from development and scripting, through to shooting and production, and edit and post. I even produce (and host) podcasts! Where I am most at home though is knee deep in a production budget and schedule, the organisational force behind a beautiful creative idea.
+              <p className="text-lg leading-relaxed mb-4">Hey there, I'm Amelia and I'm a producer. I cover the whole production from development and scripting, through to shooting and production, and edit and post. I even produce (and host) podcasts! Where I am most at home though is knee deep in a production budget and schedule, the organisational force behind a beautiful creative idea.
+
               </p>
               <p className="text-lg leading-relaxed mb-4">
                 I graduated from the London School of Economics, then completed an MPhil at the University of Cambridge researching how information spreads via social media algorithms and how that influences environmental sustainability - a useful lens for understanding what succeeds online.
@@ -110,8 +110,8 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default AboutPage;
