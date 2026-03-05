@@ -13,9 +13,16 @@ import whp from "@/assets/project-whp.png";
 import costs from "@/assets/project-costs.png";
 import tab from "@/assets/project-tab.png";
 import internationelles from "@/assets/project-internationelles.jpg";
+import crisisEvents from "@/assets/project-crisis-events.png";
 
 const MyWorkPage = () => {
   const projects = [
+    {
+      title: "Video Campaign explaining AI Disinformation — Digital Producer",
+      year: "2026",
+      image: crisisEvents,
+      link: "https://www.linkedin.com/posts/the-alan-turing-institute_ai-crisisevents-riskmitigation-activity-7432043885637521408-Qsat?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAChKeakBL7WMz7fy-KQVQTDaBetM7RrHyic"
+    },
     {
       title: "The Turing Podcast — Producer & Host",
       year: "2025",
