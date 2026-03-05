@@ -57,6 +57,7 @@ const AboutPage = () => {
               <div>
                 <h4 className="text-accent font-semibold mb-3 min-h-[3rem] flex items-center">Organisational & Production Management</h4>
                 <ul className="space-y-2 text-muted-foreground">
+                  <li>Production Management Certification - London Film Academy</li>
                   <li>Movie Magic Budgeting & Scheduling</li>
                   <li>Production Budgets and management</li>
                   <li>DocuSign & production paperwork workflows</li>
@@ -70,6 +71,7 @@ const AboutPage = () => {
               <div>
                 <h4 className="text-accent font-semibold mb-3 min-h-[3rem] flex items-center">Production</h4>
                 <ul className="space-y-2 text-muted-foreground">
+                  <li>Cinematography and Lighting Certification - London Film Academy</li>
                   <li>DSLR & cinema camera operation</li>
                   <li>Lighting setups</li>
                   <li>Podcast & audio recording</li>
@@ -99,6 +101,8 @@ const AboutPage = () => {
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Descript (AI subtitling & transcription)</li>
                   <li>Teams / Slack / GSuite</li>
+                  <li>ChatGPT, Claude, and Gemini coding</li>
+                  <li>Video and image generation (Veo and Nano Banana)</li>
                   <li>Apparently vibe coding websites too</li>
                 </ul>
               </div>
